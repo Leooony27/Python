@@ -1,0 +1,86 @@
+Strings: str (conjunto de caracteres dispostos numa determinada ordem)
+	(em outras linguagens podem ser chamados de char(character))
+		*Strings são geralmente utilizada para representar palavras, frases ou textos.*
+
+Inteiros: int (numero inteiros)
+
+Flutuantes: float (numeros fracionados)
+
+Booleanos: bool (tipo de dado lógico que pode assumir apenas dois valores: falso ou verdadeiro (False ou True em Python).
+	na lógica computacional, podem ser considerados como 0 ou 1.
+
+Complexo: complex (tipo de dado usado para representar números complexos)
+	(esse tipo normalmente é usado em cálculos geométricos e científicos)
+
+Listas: list (listas agrupam um conjunto de elementos variados, podendo conter: inteiros, floats, strings, outras listas e outros tipos.)
+	
+	Elas são definidas utilizando-se colchetes para delimitar a lista e vírgulas para separar os elementos, veja alguns exemplo abaixo:
+
+	EX:
+	
+	alunos = ['Amanda', 'Ana', 'Bruno', 'João']
+	notas = [10, 8.5, 7.8, 8.0] 
+
+		print(type(alunos))
+		print(type(notas))
+	
+	Saída:
+
+	<class 'list'>
+	<class 'list'>
+
+Dicionários: dict (Dict é um tipo de dado muito flexível do Python.
+	Eles são utilizados para agrupar elementos através da estrutura de chave e valor, onde a chave é o primeiro elemento seguido por dois pontos e pelo valor.
+
+	EX:
+
+	altura = {'Amanda': 1.65, 'Ana': 1.60, 'João': 1.70}
+	peso = {'Amanda': 60, 'Ana': 58, 'João': 68}
+
+		print(type(altura))
+		print(type(peso))
+
+	Saída:
+
+	<class 'dict'>
+	<class 'dict'>
+
+
+
+Estruturas de Controle :
+
+	Condicionais : 
+	
+	if idade >= 18:
+    		print("Maior de idade")
+	else:
+    		print("Menor de idade")
+
+Laços de repetição :
+
+	for i in range(5):
+    		print(i)
+
+Funções : 
+	
+EX: 
+
+	def saudacao(nome):
+    		return f"Olá, {nome}!"
+
+	print(saudacao("Maria"))
+
+Listas : 
+
+EX:
+
+	frutas = ["maçã", "banana", "laranja"]
+		print(frutas[0])  (#Acessa o primeiro item)
+
+Importanto Módulos : 
+
+EX : 
+	import math
+		print(math.sqrt(16))  (#Raiz quadrada de 16
+
+
